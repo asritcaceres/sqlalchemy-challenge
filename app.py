@@ -1,4 +1,4 @@
-  
+#Dependencies  
 import datetime as dt
 import numpy as np
 import pandas as pd
@@ -21,7 +21,7 @@ measurement = Base.classes.measurement
 station = Base.classes.station
 session=Session(engine)
 
-
+## Flask Setup ##
 app = Flask(__name__)
 
 #Routes
